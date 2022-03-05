@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+.header {
+  background-color: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.earth {
+  width: 30px;
+}
+
+.company {
+  color: white;
+  padding-left: 8px;
+  font-weight: 500;
+}
+
+.travel {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  border-bottom: 1px solid #F5F5F5;
+  border-width: 80%;
+  gap: 20px;
+}
+
+.main-img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.location-info {
+  display: flex;
+  align-items: center; 
+  margin: 0;
+}
+
+.location-icon {
+  width: 15px;
+}
+
+.location {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-right: 10px;
+  padding-left: 5px;
+  font-size: 13px;
+}
+
+.maps-link {
+  color: #918E9B;
+  text-decoration: none;
+  border-bottom: 2px solid #918E9B;
+  font-weight: 400;
+  font-size: 13.25px;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  margin: 0;
+  margin-top: -10px;
+}
+
+.date {
+  font-size: 12px;
+  
+}
+
+.description {
+  font-size: 12px;
+  margin-top: -5px;
+  line-height: 1.5em;
+}
+
+.text-content {
+  padding-top: 10px;
+}
+
+
